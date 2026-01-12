@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arni Abarana - Handmade Clay Jewellery</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #faf7f5;
+            color: #333;
+        }
+        header {
+            background: #8e735b;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header img {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+            letter-spacing: 1px;
+        }
+        nav {
+            background: #eee;
+            padding: 12px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            margin: 0 18px;
+            text-decoration: none;
+            color: #444;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #8e735b;
+        }
+        .hero {
+            padding: 80px;
+            text-align: center;
+            background: linear-gradient(#f5ece6, #e9dfd8);
+            animation: fadeIn 1.5s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            padding-top: 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .contact-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #8e735b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+        .contact-btn:hover {
+            background: #7a604c;
+        }
+        footer {
+            background: #8e735b;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/120" alt="Logo">
+        <h1>Arni Abarana</h1>
+        <p>Handcrafted Clay Earrings • Artistic Jewellery</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Classic • Artistic • Handmade</h2>
+        <p>Experience the grace of handcrafted clay earrings made with passion.</p>
+        <a class="contact-btn" href="https://wa.me/910000000000">Order on WhatsApp</a>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Arni Abarana</h2>
+        <p>
+            Arni Abarana creates elegant handcrafted clay jewellery blending tradition and modern art. Every design is sculpted with patience, painted with precision, and crafted with love.
+        </p>
+    </section>
+
+    <section id="products" class="section">
+        <h2>Our Signature Earrings</h2>
+        <div class="products">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x230" />
+                <h3>Matte Collection</h3>
+                <p>Minimal & classic matte-textured earrings.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x230" />
+                <h3>Glossy Floral</h3>
+                <p>Shiny, colourful, hand-painted floral designs.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x230" />
+                <h3>Antique Clay</h3>
+                <p>Ethnic-inspired traditional jewellery pieces.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2>Product Gallery</h2>
+        <div class="products">
+            <img class="card" src="https://via.placeholder.com/300x230" />
+            <img class="card" src="https://via.placeholder.com/300x230" />
+            <img class="card" src="https://via.placeholder.com/300x230" />
+            <img class="card" src="https://via.placeholder.com/300x230" />
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email: arniboutique@example.com</p>
+        <p>Instagram: <a href="https://instagram.com/arni_abarana">@arni_abarana</a></p>
+        <a class="contact-btn" href="https://wa.me/910000000000">Chat on WhatsApp</a>
+    </section>
+
+    <footer>
+        © 2026 Arni Abarana · Handcrafted Clay Jewellery
+    </footer>
+</body>
+</html>
